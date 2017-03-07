@@ -1,0 +1,46 @@
+<div style="padding-top: 300px">
+<br>
+<md-card class="login_card">
+<div style="font-size: large;font-weight: 600;padding-bottom: 20px;">Enter Your Details </div>
+<tr>
+<td>
+<md-input-container>
+  <input md-input placeholder="Name" value="" [(ngModel)]="authorModel.name">
+</md-input-container>
+</td>
+</tr>
+<tr>
+<td>
+<md-input-container>
+  <input md-input placeholder="City" value="" [(ngModel)]="authorModel.city">
+</md-input-container>
+</td>
+</tr>
+<tr>
+<td>
+<md-input-container>
+  <input md-input type="password" placeholder="Password" value="" [(ngModel)]="authorModel.password">
+</md-input-container>
+</td>
+</tr>
+<tr>
+<td>
+<md-input-container>
+  <input md-input placeholder="Age" type="number" value="" [(ngModel)]="authorModel.age">
+</md-input-container>
+</td>
+</tr>
+<tr>
+<td>
+<md-input-container>
+  <input md-input placeholder="Email" value="" [(ngModel)]="authorModel.email">
+</md-input-container>
+</td>
+</tr>
+
+<br>
+
+
+  <button md-raised-button (click)="register()" >Register</button>
+</md-card>
+</div>

@@ -1,0 +1,45 @@
+<div style="padding-top: 350px">
+<md-card class="login_card" style="height: 30px; z-index: 2; font-weight: 600">
+	Don't have an account?
+	<button class="mdl-button mdl-js-button mdl-button--raised " [routerLink]="['../register']" 
+	style="margin-left: 300px;color: white; background-color: rgb(68,138,255)">
+	  Register Now!
+	</button>
+</md-card>
+
+
+<md-card style="z-index: 2">
+	<md-card class="login_card" >
+	<md-card-header *ngIf="!invalid" class="invalid" style= "background-color: rgb(68,138,255)">
+	    <md-card-title class="invalid_title">Please Enter</md-card-title>
+	  </md-card-header>
+	  <md-card-header *ngIf="invalid" class="invalid">
+	    <md-card-title class="invalid_title">Sorry! Wrong Credentials</md-card-title>
+	  </md-card-header>
+	  <div class="login_form">
+	<tr>
+	<td>
+	<md-input-container>
+	  <input md-input placeholder="Email" [(ngModel)]="author.email">
+	</md-input-container>
+	</td>
+	</tr>
+
+	<tr>
+	<td>
+	<md-input-container>
+	  <input md-input type="password" placeholder="Password" [(ngModel)]="author.password">
+	</md-input-container>
+	</td>
+	</tr>
+
+
+
+
+
+	  <button md-raised-button (click)="login()" >Login</button></div>
+	</md-card>
+
+	
+</md-card>	
+</div>

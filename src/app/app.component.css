@@ -1,0 +1,124 @@
+#grad_nav_bar {
+    height: 200px;
+    background: blue; /* For browsers that do not support gradients */    
+    background: -webkit-linear-gradient(left top, red, yellow); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom blue, red, yellow); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom right, red, yellow); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom right, #307af2, #87b5ff); /* Standard syntax (must be last) */
+}
+
+.title{
+	vertical-align: middle;
+}
+
+.h1{
+	font-size: 2.5em;
+}
+
+.news_tab{
+	width: 380px;
+}
+.add_post_button{
+    float: right;
+    margin-left: 1100px;
+    margin-right: -1065px;
+    font-size: -webkit-xxx-large;
+    margin-top: 145px;
+}
+.newsButton{
+    padding: 5px;
+}
+
+.footer{
+    size: 80px
+}
+
+.example-card {
+  width: 100%;
+  height: 290px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.example-header-image {
+  background-size: cover;
+}
+.md-grid-tile figure {
+     align-items: flex-start!important;
+     position: absolute;
+     overflow: visible;
+     margin-bottom: 10px;
+     height: 200px;
+
+   }
+.md-grid-tile{
+    height: 20px;
+}
+.md-grid-list{
+
+}
+
+img {
+    max-width: 500%;
+    max-height: 500%;
+}
+
+.img_div{
+    height: 180px;
+  width: 245px;
+  padding-left: 430px;
+
+}
+.grid_tile{
+
+}
+
+.card_title{
+  font-size: 20px;
+  font-weight: 400;
+}
+
+
+.demo-blog .mdl-mini-footer {
+  margin-top: 80px;
+  height: 120px;
+  padding: 40px;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: white;
+  box-sizing: border-box;
+}
+
+
+.footer{
+  size: 80px
+}
+
+.social-btn {
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  margin: 0 16px;
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+  opacity: 0.46;
+  border-radius: 2px;
+}
+.social-btn__twitter {
+  background-image: url('https://www.gstatic.com/images/icons/material/system/2x/post_twitter_black_24dp.png');
+}
+.social-btn__blogger {
+  background-image: url('https://www.gstatic.com/images/icons/material/system/2x/post_facebook_black_24dp.png');
+}
+.social-btn__gplus {
+  background-image: url('https://www.gstatic.com/images/icons/material/system/2x/post_gplus_black_24dp.png');
+}
+.social-btn__share {
+  color: rgba(0, 0, 0, 0.54);
+  background: transparent;
+}
